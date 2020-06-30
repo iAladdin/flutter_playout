@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import Flutter
 import AVKit
 
 class FluterAVPlayer: AVPlayer {
