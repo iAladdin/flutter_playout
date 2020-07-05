@@ -233,7 +233,7 @@ class VideoPlayer: NSObject, FlutterPlugin, FlutterStreamHandler, FlutterPlatfor
             /* add player view controller to root view controller */
             let viewController = (UIApplication.shared.delegate?.window??.rootViewController)!
             viewController.addChild(self.playerViewController!)
-            DispatchQueue.main.asyncAfter(deadline: .now() + 0.25, execute: {
+            DispatchQueue.main.asyncAfter(deadline: .now() + 0.33, execute: {
                 /* Create the asset to play */
                 let asset = AVAsset(url: videoURL)
                 
